@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Team Guidelines</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2 class="sidebar-title">QA Guidelines</h2>
+            </div>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search guidelines...">
+            </div>
+            
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#attendance" class="nav-link">Attendance & Leave</a></li>
+                    <li class="nav-item"><a href="#work-assignments" class="nav-link">Work Assignments</a></li>
+                    <li class="nav-item"><a href="#task-execution" class="nav-link">Task Execution</a></li>
+                    <li class="nav-item"><a href="#bug-reporting" class="nav-link">Bug Reporting</a></li>
+                    <li class="nav-item"><a href="#professional-conduct" class="nav-link">Professional Conduct</a></li>
+                    <li class="nav-item"><a href="#daily-activities" class="nav-link">Daily Activities</a></li>
+                    <li class="nav-item"><a href="#meetings-reporting" class="nav-link">Meetings & Reporting</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <div class="content-wrapper">
+            <section id="attendance" class="guideline-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-clock"></i> 1. Attendance & Leave Policy</h2>
+                </div>
+                <div class="guideline-content">
+                    <div class="policy-item">
+                        <h3><i class="fas fa-building"></i> Office Timing</h3>
+                        <ul>
+                            <li>All QA team members must reach the office by <strong>9:30 AM sharp</strong></li>
+                            <li>Being on time ensures proper handover of tasks, participation in daily stand-ups, and synchronization with development teams</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="policy-item">
+                        <h3><i class="fas fa-calendar-check"></i> Planned Leave</h3>
+                        <ul>
+                            <li>Submit leave requests at least <strong>2 days in advance</strong> to allow proper workload planning</li>
+                            <li>Planned leaves must be formally communicated via mail, with prior approval from the QA TL</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="policy-item">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Emergency Leave</h3>
+                        <ul>
+                            <li>In case of emergencies, inform the QA TL first before updating the office group</li>
+                            <li>Immediately send a formal leave mail to document the absence</li>
+                            <li>Emergency leaves should only be taken for genuine reasons, and frequent usage will be monitored</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="work-assignments" class="guideline-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-tasks"></i> 2. Work Assignments & Guidance</h2>
+                </div>
+                <div class="guideline-content">
+                    <div class="policy-item">
+                        <h3><i class="fas fa-graduation-cap"></i> Knowledge Transfer (KT)</h3>
+                        <ul>
+                            <li>Before starting a new project, ensure you have taken KT from the Project Coordinator (PC) or the QA TL</li>
+                            <li>This avoids misunderstandings, missed requirements, and incomplete coverage</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="policy-item">
+                        <h3><i class="fas fa-user-tie"></i> Task Assignment</h3>
+                        <ul>
+                            <li>Only the QA TL is authorized to assign tasks</li>
+                            <li>Any change in deadlines or additional workload must be documented in the work status report</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="policy-item">
+                        <h3><i class="fas fa-chart-line"></i> Work Status Updates</h3>
+                        <ul>
+                            <li>Always update the QA Tracker Portal daily</li>
+                            <li>Copy and paste the work status exactly as per the portal format to maintain uniformity</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="task-execution" class="guideline-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-stopwatch"></i> 3. Task Execution & Deadlines</h2>
+                </div>
+                <div class="guideline-content">
+                    <div class="policy-item">
+                        <h3><i class="fas fa-check-circle"></i> Timely Completion</h3>
+                        <ul>
+                            <li>Tasks must be completed within the assigned timeline</li>
+                            <li>Sprint deviations (delays) will be monitored and recorded for performance analysis</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="policy-item">
+                        <h3><i class="fas fa-user-slash"></i> If QA TL is Unavailable</h3>
+                        <ul>
+                            <li>If no work is assigned by the QA TL due to leave or other reasons:</li>
+                            <li>Inform Steve or Sunil immediately</li>
+                            <li>Start the project by entering all details in the QA Tracker</li>
+                            <li>For GitLab bug tracker setup, seek help from Saneesh, Sunil, or the responsible TL</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bug-reporting" class="guideline-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-bug"></i> 4. Bug Reporting & Communication</h2>
+                </div>
+                <div class="guideline-content">
+                    <div class="policy-item">
+                        <h3><i class="fas fa-comments"></i> Developer Communication</h3>
+                        <ul>
+                            <li>Do not directly debate bugs with developers</li>
+                            <li>Escalate clarifications through the responsible TL or Project Coordinator to avoid conflicts and miscommunication</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="policy-item">
+                        <h3><i class="fas fa-fire"></i> Smoke Testing</h3>
+                        <ul>
+                            <li>Perform a smoke test within the first hour of testing</li>
+                            <li>If the build fails to meet acceptance criteria (rejection criteria), immediately inform the QA TL and reject the build instead of proceeding with full testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="professional-conduct" class="guideline-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-handshake"></i> 5. Professional Conduct</h2>
+                </div>
+                <div class="guideline-content">
+                    <div class="policy-item">
+                        <h3><i class="fas fa-users"></i> Workplace Behavior</h3>
+                        <ul>
+                            <li>Avoid loose talk or personal conversations on the work floor</li>
+                            <li>Maintain professionalism and respect towards colleagues and developers</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="policy-item">
+                        <h3><i class="fas fa-star"></i> Quality of Work</h3>
+                        <ul>
+                            <li>Ensure all assigned tasks are completed with accuracy and attention to detail</li>
+                            <li>A rushed or careless approach will only increase rework and delays</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="daily-activities" class="guideline-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-calendar-day"></i> 6. Daily Activities</h2>
+                </div>
+                <div class="guideline-content">
+                    <div class="policy-item">
+                        <h3><i class="fas fa-users-cog"></i> Daily Stand-Ups</h3>
+                        <ul>
+                            <li>Attend and complete daily stand-ups before starting your work</li>
+                            <li>Share clear updates: yesterday's work, today's plan, and blockers</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="policy-item">
+                        <h3><i class="fas fa-stopwatch"></i> Hubstaff Tracking</h3>
+                        <ul>
+                            <li>Mandatory for all QA members</li>
+                            <li><strong>Requirements:</strong></li>
+                            <li>Minimum 70% activity rate (to show consistent effort)</li>
+                            <li>At least 8 hours of tracked work time daily</li>
+                            <li>Low Hubstaff activity without valid reason will be flagged</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="meetings-reporting" class="guideline-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-bar"></i> 7. Meetings & Reporting</h2>
+                </div>
+                <div class="guideline-content">
+                    <div class="policy-item">
+                        <h3><i class="fas fa-clipboard-list"></i> QA Bug Review Meetings</h3>
+                        <ul>
+                            <li>May be conducted by the QA TL when necessary, but only after verification by Steve, Saneesh, or Sunil</li>
+                            <li>These meetings help finalize bug statuses, avoid duplication, and track unresolved issues</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="policy-item">
+                        <h3><i class="fas fa-file-alt"></i> Project Reporting</h3>
+                        <ul>
+                            <li>Every project must follow the standard report format (shared earlier)</li>
+                            <li><strong>Reports must include:</strong></li>
+                            <li>Project Start Date</li>
+                            <li>Expected End Date & Actual End Date</li>
+                            <li>Login Credentials</li>
+                            <li>Bug Table (with Bug ID, Description, Priority, Status, etc.)</li>
+                            <li>Bug Summary (total bugs raised, fixed, pending)</li>
+                            <li>Actions to be Taken (recommendations, blockers, pending fixes)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="compliance-notice">
+                <div class="notice-box">
+                    <h3><i class="fas fa-exclamation-circle"></i> Important Notice</h3>
+                    <p>Non-compliance with these guidelines will be taken seriously and may impact performance reviews.</p>
+                </div>
+            </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
